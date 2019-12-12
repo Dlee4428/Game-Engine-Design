@@ -1,0 +1,138 @@
+﻿  Camera.cpp
+  CoreEngine.cpp
+  Window.cpp
+  ShaderHandler.cpp
+D:\Humber Game Programming\Semester 5\GAME_301_Shaked\ClassEngine2\ClassEngine2\Engine\Core\Window.cpp(51,17): warning C4552: '!=': 식의 결과가 사용되지 않습니다.
+D:\Humber Game Programming\Semester 5\GAME_301_Shaked\ClassEngine2\ClassEngine2\Engine\Graphic\ShaderHandler.cpp(88,41): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TextureHandler.cpp
+D:\Humber Game Programming\Semester 5\GAME_301_Shaked\ClassEngine2\ClassEngine2\Engine\Graphic\ShaderHandler.cpp(88,41): warning C4267: '초기화 중': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Humber Game Programming\Semester 5\GAME_301_Shaked\ClassEngine2\ClassEngine2\Engine\Graphic\TextureHandler.cpp(28,20): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Main.cpp
+  Game1.cpp
+  GameObject.cpp
+  LoadObjModel.cpp
+  Mesh.cpp
+D:\Humber Game Programming\Semester 5\GAME_301_Shaked\ClassEngine2\ClassEngine2\Engine\Graphic\TextureHandler.cpp(29,21): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Model.cpp
+D:\Humber Game Programming\Semester 5\GAME_301_Shaked\ClassEngine2\ClassEngine2\Engine\Rendering\3D\Mesh.cpp(35,58): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameScene.cpp
+  StartScene.cpp
+  imgui_impl_opengl3.cpp
+  imgui_impl_sdl.cpp
+  imgui_widgets.cpp
+  코드를 생성하고 있습니다...
+D:\Humber Game Programming\Semester 5\GAME_301_Shaked\ClassEngine2\ClassEngine2\Engine\Rendering\3D\Model.cpp(41,34): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+CoreEngine.obj : error LNK2019: SDL_GL_SwapWindow 외부 기호(참조 위치: "private: void __cdecl CoreEngine::Render(void)" (?Render@CoreEngine@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+CoreEngine.obj : error LNK2019: SDL_Delay 외부 기호(참조 위치: "public: void __cdecl CoreEngine::Run(void)" (?Run@CoreEngine@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+CoreEngine.obj : error LNK2019: SDL_Quit 외부 기호(참조 위치: "private: void __cdecl CoreEngine::OnDestroy(void)" (?OnDestroy@CoreEngine@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+Timer.obj : error LNK2019: SDL_GetTicks 외부 기호(참조 위치: "public: unsigned int __cdecl Timer::GetSleepTime(unsigned int)const " (?GetSleepTime@Timer@@QEBAII@Z) 함수)에서 확인하지 못했습니다.
+Window.obj : error LNK2019: SDL_CreateWindow 외부 기호(참조 위치: "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) 함수)에서 확인하지 못했습니다.
+Window.obj : error LNK2019: SDL_DestroyWindow 외부 기호(참조 위치: "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+Window.obj : error LNK2019: SDL_GL_SetAttribute 외부 기호(참조 위치: "private: void __cdecl Window::SetAttributes(void)" (?SetAttributes@Window@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+Window.obj : error LNK2019: SDL_GL_CreateContext 외부 기호(참조 위치: "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) 함수)에서 확인하지 못했습니다.
+Window.obj : error LNK2019: SDL_GL_SetSwapInterval 외부 기호(참조 위치: "private: void __cdecl Window::SetAttributes(void)" (?SetAttributes@Window@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+Window.obj : error LNK2019: SDL_GL_DeleteContext 외부 기호(참조 위치: "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+Window.obj : error LNK2019: SDL_Init 외부 기호(참조 위치: "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) 함수)에서 확인하지 못했습니다.
+Window.obj : error LNK2019: __imp_glewInit 외부 기호(참조 위치: "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) 함수)에서 확인하지 못했습니다.
+Window.obj : error LNK2001: __imp_glewExperimental 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewAttachShader 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewAttachShader 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewCompileShader 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewCompileShader 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewCreateProgram 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewCreateProgram 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewCreateShader 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewCreateShader 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewDeleteProgram 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewDeleteProgram 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewDeleteShader 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewDeleteShader 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewGetProgramInfoLog 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewGetProgramInfoLog 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewGetProgramiv 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewGetProgramiv 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewGetShaderInfoLog 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewGetShaderInfoLog 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewGetShaderiv 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewGetShaderiv 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewLinkProgram 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewLinkProgram 외부 기호를 확인할 수 없습니다.
+ShaderHandler.obj : error LNK2001: __imp___glewShaderSource 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewShaderSource 외부 기호를 확인할 수 없습니다.
+TextureHandler.obj : error LNK2019: SDL_FreeSurface 외부 기호(참조 위치: "public: void __cdecl TextureHandler::CreateTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateTexture@TextureHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 함수)에서 확인하지 못했습니다.
+TextureHandler.obj : error LNK2019: IMG_Load 외부 기호(참조 위치: "public: void __cdecl TextureHandler::CreateTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateTexture@TextureHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 함수)에서 확인하지 못했습니다.
+TextureHandler.obj : error LNK2001: __imp___glewGenerateMipmap 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewActiveTexture 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewActiveTexture 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewBindBuffer 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewBindBuffer 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewBufferData 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewBufferData 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewDeleteBuffers 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewDeleteBuffers 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewGenBuffers 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewGenBuffers 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewEnableVertexAttribArray 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewEnableVertexAttribArray 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewGetUniformLocation 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewGetUniformLocation 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewUniform1f 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewUniform1i 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewUniform1i 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewUniform3f 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewUniform3fv 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewUniformMatrix4fv 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewUniformMatrix4fv 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewVertexAttribPointer 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewVertexAttribPointer 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewBindVertexArray 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewBindVertexArray 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewDeleteVertexArrays 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewDeleteVertexArrays 외부 기호를 확인할 수 없습니다.
+Mesh.obj : error LNK2001: __imp___glewGenVertexArrays 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewGenVertexArrays 외부 기호를 확인할 수 없습니다.
+Model.obj : error LNK2001: __imp___glewUseProgram 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewUseProgram 외부 기호를 확인할 수 없습니다.
+imgui.obj : error LNK2019: "bool __cdecl ImGui::BeginTabBarEx(struct ImGuiTabBar *,struct ImRect const &,int,struct ImGuiDockNode *)" (?BeginTabBarEx@ImGui@@YA_NPEAUImGuiTabBar@@AEBUImRect@@HPEAUImGuiDockNode@@@Z) 외부 기호(참조 위치: "void __cdecl ImGui::DockNodeUpdateTabBar(struct ImGuiDockNode *,struct ImGuiWindow *)" (?DockNodeUpdateTabBar@ImGui@@YAXPEAUImGuiDockNode@@PEAUImGuiWindow@@@Z) 함수)에서 확인하지 못했습니다.
+imgui.obj : error LNK2019: "struct ImGuiTabItem * __cdecl ImGui::TabBarFindMostRecentlySelectedTabForActiveWindow(struct ImGuiTabBar *)" (?TabBarFindMostRecentlySelectedTabForActiveWindow@ImGui@@YAPEAUImGuiTabItem@@PEAUImGuiTabBar@@@Z) 외부 기호(참조 위치: "struct ImGuiWindow * __cdecl ImGui::NavRestoreLastChildNavWindow(struct ImGuiWindow *)" (?NavRestoreLastChildNavWindow@ImGui@@YAPEAUImGuiWindow@@PEAU2@@Z) 함수)에서 확인하지 못했습니다.
+imgui.obj : error LNK2019: "void __cdecl ImGui::TabBarAddTab(struct ImGuiTabBar *,int,struct ImGuiWindow *)" (?TabBarAddTab@ImGui@@YAXPEAUImGuiTabBar@@HPEAUImGuiWindow@@@Z) 외부 기호(참조 위치: "void __cdecl ImGui::DockContextProcessDock(struct ImGuiContext *,struct ImGuiDockRequest *)" (?DockContextProcessDock@ImGui@@YAXPEAUImGuiContext@@PEAUImGuiDockRequest@@@Z) 함수)에서 확인하지 못했습니다.
+imgui.obj : error LNK2019: "bool __cdecl ImGui::TabItemEx(struct ImGuiTabBar *,char const *,bool *,int,struct ImGuiWindow *)" (?TabItemEx@ImGui@@YA_NPEAUImGuiTabBar@@PEBDPEA_NHPEAUImGuiWindow@@@Z) 외부 기호(참조 위치: "void __cdecl ImGui::DockNodeUpdateTabBar(struct ImGuiDockNode *,struct ImGuiWindow *)" (?DockNodeUpdateTabBar@ImGui@@YAXPEAUImGuiDockNode@@PEAUImGuiWindow@@@Z) 함수)에서 확인하지 못했습니다.
+imgui.obj : error LNK2019: "bool __cdecl ImGui::CollapseButton(unsigned int,struct ImVec2 const &,struct ImGuiDockNode *)" (?CollapseButton@ImGui@@YA_NIAEBUImVec2@@PEAUImGuiDockNode@@@Z) 외부 기호(참조 위치: "void __cdecl ImGui::DockNodeUpdateTabBar(struct ImGuiDockNode *,struct ImGuiWindow *)" (?DockNodeUpdateTabBar@ImGui@@YAXPEAUImGuiDockNode@@PEAUImGuiWindow@@@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewBlendEquation 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewBlendFuncSeparate 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewBlendEquationSeparate 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewDetachShader 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewGetAttribLocation 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewDrawElementsBaseVertex 외부 기호를 확인할 수 없습니다.
+imgui_impl_opengl3.obj : error LNK2001: __imp___glewBindSampler 외부 기호를 확인할 수 없습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_free 외부 기호(참조 위치: "char const * __cdecl ImGui_ImplSDL2_GetClipboardText(void *)" (?ImGui_ImplSDL2_GetClipboardText@@YAPEBDPEAX@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_SetClipboardText 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_SetClipboardText(void *,char const *)" (?ImGui_ImplSDL2_SetClipboardText@@YAXPEAXPEBD@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetClipboardText 외부 기호(참조 위치: "char const * __cdecl ImGui_ImplSDL2_GetClipboardText(void *)" (?ImGui_ImplSDL2_GetClipboardText@@YAPEBDPEAX@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetWindowPosition 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateMousePosAndButtons(void)" (?ImGui_ImplSDL2_UpdateMousePosAndButtons@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetWindowSize 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_NewFrame(struct SDL_Window *)" (?ImGui_ImplSDL2_NewFrame@@YAXPEAUSDL_Window@@@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GL_GetDrawableSize 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_NewFrame(struct SDL_Window *)" (?ImGui_ImplSDL2_NewFrame@@YAXPEAUSDL_Window@@@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetKeyboardFocus 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateMousePosAndButtons(void)" (?ImGui_ImplSDL2_UpdateMousePosAndButtons@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetModState 외부 기호(참조 위치: "bool __cdecl ImGui_ImplSDL2_ProcessEvent(union SDL_Event const *)" (?ImGui_ImplSDL2_ProcessEvent@@YA_NPEBTSDL_Event@@@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetMouseState 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateMousePosAndButtons(void)" (?ImGui_ImplSDL2_UpdateMousePosAndButtons@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetGlobalMouseState 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateMousePosAndButtons(void)" (?ImGui_ImplSDL2_UpdateMousePosAndButtons@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_WarpMouseInWindow 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateMousePosAndButtons(void)" (?ImGui_ImplSDL2_UpdateMousePosAndButtons@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_CaptureMouse 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateMousePosAndButtons(void)" (?ImGui_ImplSDL2_UpdateMousePosAndButtons@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_CreateSystemCursor 외부 기호(참조 위치: "bool __cdecl ImGui_ImplSDL2_Init(struct SDL_Window *)" (?ImGui_ImplSDL2_Init@@YA_NPEAUSDL_Window@@@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_SetCursor 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateMouseCursor(void)" (?ImGui_ImplSDL2_UpdateMouseCursor@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_FreeCursor 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_Shutdown(void)" (?ImGui_ImplSDL2_Shutdown@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_ShowCursor 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateMouseCursor(void)" (?ImGui_ImplSDL2_UpdateMouseCursor@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GameControllerOpen 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateGamepads(void)" (?ImGui_ImplSDL2_UpdateGamepads@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GameControllerGetAxis 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateGamepads(void)" (?ImGui_ImplSDL2_UpdateGamepads@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GameControllerGetButton 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_UpdateGamepads(void)" (?ImGui_ImplSDL2_UpdateGamepads@@YAXXZ) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetPerformanceCounter 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_NewFrame(struct SDL_Window *)" (?ImGui_ImplSDL2_NewFrame@@YAXPEAUSDL_Window@@@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetPerformanceFrequency 외부 기호(참조 위치: "void __cdecl ImGui_ImplSDL2_NewFrame(struct SDL_Window *)" (?ImGui_ImplSDL2_NewFrame@@YAXPEAUSDL_Window@@@Z) 함수)에서 확인하지 못했습니다.
+imgui_impl_sdl.obj : error LNK2019: SDL_GetWindowWMInfo 외부 기호(참조 위치: "bool __cdecl ImGui_ImplSDL2_Init(struct SDL_Window *)" (?ImGui_ImplSDL2_Init@@YA_NPEAUSDL_Window@@@Z) 함수)에서 확인하지 못했습니다.
+imgui_widgets.obj : error LNK2019: "int __cdecl ImGui::CalcTypematicPressedRepeatAmount(float,float,float,float)" (?CalcTypematicPressedRepeatAmount@ImGui@@YAHMMMM@Z) 외부 기호(참조 위치: "bool __cdecl ImGui::ButtonBehavior(struct ImRect const &,unsigned int,bool *,bool *,int)" (?ButtonBehavior@ImGui@@YA_NAEBUImRect@@IPEA_N1H@Z) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\GameDev\SDL\lib\SDL2.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\GameDev\SDL\lib\SDL2_image.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\GameDev\SDL\lib\SDL2main.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\GameDev\SDL\lib\SDL2test.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\GameDev\OpenGL\lib\glew32.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\GameDev\OpenGL\lib\glew32s.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+D:\Humber Game Programming\Semester 5\GAME_301_Shaked\ClassEngine2\x64\Debug\ClassEngine2.exe : fatal error LNK1120: 81개의 확인할 수 없는 외부 참조입니다.
